@@ -2,6 +2,7 @@
 Comparison Operators
 -When using comparison operators it will result in a true or false (boolean)
 Equality operators
+
 double equal: ==
 Doesn't care about data type of the variable, only value matters
 triple equal: ===
@@ -39,6 +40,8 @@ let helicopater2 = " Blackhawk      ";
 
 console.log(helicopter1.toLowerCase().trim() === helicopater2.toLowerCase().trim());
 
+
+// not equal
 let friend2Age = "25";
 console.log(myAge != friend2Age); 
 console.log(myAge != friendAge); // False: they are equal 

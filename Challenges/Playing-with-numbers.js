@@ -33,3 +33,11 @@ console.log(Infinity - Infinity)
 // Final Question
 
 // 1) math in JavaScript functions very much like math normally. Written out it follows syntax and PEMDAS structure.
+
+
+// ! random number generation ruleset
+// function randomNum(min, max) {
+//     let range = max - min + 1;
+//     console.log("Function ran");
+//     return Math.floor(Math.random() * range) + min;
+//   }

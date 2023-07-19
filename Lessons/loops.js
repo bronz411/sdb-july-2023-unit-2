@@ -66,3 +66,6 @@ while (i <= 30) {
   i++;
 }
 console.log(total);
+
+
+

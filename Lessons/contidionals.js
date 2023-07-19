@@ -82,3 +82,20 @@ if (age < 5) {
 
 console.log("That will be $" + priceOfTicket.toFixed(2) + " please.");
 console.log(`$${priceOfTicket.toFixed(2)}`);
+
+
+//! Ternaries
+// these two are the same
+
+
+let number1 = 5
+let isEven = number1 % 2 === 0 ? true: false
+
+if (number1 % 2 === 0) {
+  isEven = true;
+} else {
+  isEven = false;
+}
+
+let age1 = 20;
+let beverage = age1 >= 21 ? "beer": "juice box";
